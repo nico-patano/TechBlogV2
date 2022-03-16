@@ -1,0 +1,34 @@
+{
+  "name": "techblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico-patano/TechBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nico-patano/TechBlog/issues"
+  },
+  "homepage": "https://github.com/nico-patano/TechBlog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "cookie": "^0.4.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "parser": "^0.1.4",
+    "sequelize": "^6.17.0"
+  }
+}
